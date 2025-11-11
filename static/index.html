@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noaghzil - 科技与创新</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 font-sans">
+
+    <!-- 导航栏 -->
+    <header class="bg-blue-600 text-white">
+        <div class="container mx-auto flex justify-between items-center p-4">
+            <h1 class="text-2xl font-bold">Noaghzil</h1>
+            <nav>
+                <ul class="flex space-x-6">
+                    <li><a href="#about" class="hover:text-gray-200">关于我们</a></li>
+                    <li><a href="#projects" class="hover:text-gray-200">项目</a></li>
+                    <li><a href="#contact" class="hover:text-gray-200">联系我们</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="bg-gradient-to-r from-blue-600 to-purple-600 text-white text-center py-32">
+        <h2 class="text-4xl md:text-5xl font-extrabold mb-4">探索科技，点亮创新</h2>
+        <p class="text-lg md:text-xl max-w-xl mx-auto mb-8">Noaghzil 致力于将最前沿的科技与创新理念融合，推动未来数字化体验的发展。</p>
+        <a href="#projects" class="bg-white text-blue-600 font-semibold py-3 px-6 rounded-lg hover:bg-gray-200 transition">了解我们的项目</a>
+    </section>
+
+    <!-- 关于我们 -->
+    <section id="about" class="container mx-auto py-20 px-4">
+        <h3 class="text-3xl font-bold text-center mb-8">关于 Noaghzil</h3>
+        <p class="max-w-3xl mx-auto text-center text-gray-700 leading-relaxed">Noaghzil 结合先进的科技解决方案与创新思维，为企业和个人提供独特的数字化体验。我们专注于 AI、物联网、智能应用及前沿研究，推动科技应用的边界。</p>
+    </section>
+
+    <!-- 项目展示 -->
+    <section id="projects" class="bg-gray-200 py-20">
+        <div class="container mx-auto px-4">
+            <h3 class="text-3xl font-bold text-center mb-12">我们的项目</h3>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition">
+                    <h4 class="text-xl font-semibold mb-2">智能家居系统</h4>
+                    <p class="text-gray-600">利用 IoT 技术，实现全屋智能化管理，提升生活效率和舒适度。</p>
+                </div>
+                <div class="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition">
+                    <h4 class="text-xl font-semibold mb-2">AI 语音助手</h4>
+                    <p class="text-gray-600">结合深度学习与自然语言处理，为用户提供智能语音交互体验。</p>
+                </div>
+                <div class="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition">
+                    <h4 class="text-xl font-semibold mb-2">数据分析平台</h4>
+                    <p class="text-gray-600">通过大数据分析与可视化，为企业提供精准决策支持。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 联系我们 -->
+    <section id="contact" class="container mx-auto py-20 px-4">
+        <h3 class="text-3xl font-bold text-center mb-8">联系我们</h3>
+        <form class="max-w-xl mx-auto bg-white p-8 rounded-lg shadow-lg">
+            <div class="mb-4">
+                <label class="block text-gray-700 font-semibold mb-2">姓名</label>
+                <input type="text" class="w-full border border-gray-300 rounded-lg p-3" placeholder="你的姓名">
+            </div>
+            <div class="mb-4">
+                <label class="block text-gray-700 font-semibold mb-2">邮箱</label>
+                <input type="email" class="w-full border border-gray-300 rounded-lg p-3" placeholder="你的邮箱">
+            </div>
+            <div class="mb-4">
+                <label class="block text-gray-700 font-semibold mb-2">信息</label>
+                <textarea class="w-full border border-gray-300 rounded-lg p-3" rows="4" placeholder="你的信息"></textarea>
+            </div>
+            <button type="submit" class="bg-blue-600 text-white font-semibold py-3 px-6 rounded-lg hover:bg-blue-700 transition">发送信息</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-blue-600 text-white text-center py-6">
+        <p>&copy; 2025 Noaghzil. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
+
