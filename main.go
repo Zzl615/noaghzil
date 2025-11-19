@@ -15,6 +15,11 @@ func main() {
         c.File("./static/index.html")
 
     })
+    // 微信安全文件
+    router.GET("/6ea8410eab110ee719bbc36c99d36fe1.txt", func(c *gin.Context) {
+        c.File("./static/6ea8410eab110ee719bbc36c99d36fe1.txt")
+
+    })
 
     // 监听 80 端口
     err := router.Run(":80")
